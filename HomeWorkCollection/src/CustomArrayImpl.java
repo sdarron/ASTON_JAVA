@@ -260,7 +260,7 @@ public class CustomArrayImpl<T> implements CustomArray<T> {
 
     @Override
     public void bubbleSort() {
-        int i = 0, n = elementData.length;
+        int i = 0, n = size;
         boolean swapNeeded = true;
         while (i < n - 1 && swapNeeded) {
             swapNeeded = false;
